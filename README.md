@@ -21,8 +21,8 @@ function love.update(dt)
 end
 ```
 
-And then you can call the implemented functions from the Steamworks API. This only works for Windows 32-bit because that's what 
-I will personally support, but if you want to make it work for Win64, Linux or OSX then read the next sections.
+And then you can call the implemented functions from the Steamworks API. If you're testing you'll also need the `steam_appid.txt` file next to the executable. This only works for Windows 32-bit because that's what 
+I will personally support, but if you want to make it work for Win64, Linux or OSX then read the [Building](#building) section.
 
 All implemented functions are being tested in `main.lua`, so you can check that file to see what is currently working. For now 
 it's a very simple implementation that only covers the basics and ensures callbacks work. As I need to implement features for my
