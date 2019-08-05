@@ -1,3 +1,7 @@
+# DISCONTINUED!
+
+**------->>> USE https://github.com/uspgamedev/luasteam INSTEAD <<<-------**
+
 # love-steam
 
 Steamworks integration for LÖVE
