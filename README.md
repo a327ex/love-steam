@@ -1,14 +1,10 @@
-# DISCONTINUED!
-
-**------->>> USE https://github.com/uspgamedev/luasteam INSTEAD <<<-------**
-
 # love-steam
 
 Steamworks integration for LÖVE
 
 ## Usage
 
-Place `love_steam.dll` next to LÖVE's or your game's executable and then do this:
+Place `love_steam.dll` and `steam_api.dll` (from the Steamworks SDK) next to LÖVE's or your game's executable and then do this:
 
 ```lua
 Steam = require("love_steam")
